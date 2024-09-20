@@ -15,9 +15,9 @@ public class DefaultDriveCommand extends Command {
   private final Supplier<Double> m_speedStraight;
   private final MototSubsystem m_leftSubsystem;
   /** Creates a new DefaultDriveCommand. */
-  public DefaultDriveCommand(MototSubsystem leftSubsystem, Supplier<Double> speedStraight) {
+  public DefaultDriveCommand(MototSubsystem mototSubsystem, Supplier<Double> speedStraight) {
     m_speedStraight=speedStraight;
-    m_leftSubsystem=leftSubsystem;
+    m_leftSubsystem=mototSubsystem;
     addRequirements(m_leftSubsystem);
     // Use addRequirements() here to declare subsystem dependencies.
 
