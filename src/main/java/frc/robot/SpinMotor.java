@@ -4,9 +4,6 @@
 
 package frc.robot;
 
-import java.time.Duration;
-import java.time.Instant;
-
 import edu.wpi.first.wpilibj2.command.Command;
 
 public class SpinMotor extends Command {
